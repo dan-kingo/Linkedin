@@ -617,3 +617,65 @@ hr {
   width: 10px;
   margin-left: 5px;
 }
+
+/* profile show container */
+
+.profile-show {
+  width: 300px;
+  background-color: #1e1e1e;
+  position: absolute;
+  top: 108%;
+  right: 5%;
+  border-radius: 5px;
+  padding: 1rem;
+  overflow: hidden;
+  display: none;
+  opacity: 0;
+  transition: display 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.profile-show.active-profile {
+  display: block;
+  opacity: 1;
+}
+.profile-link-show {
+  display: flex;
+  align-items: center;
+}
+.title-show h1 {
+  color: #fff;
+  font-size: 1rem;
+}
+.title-show a {
+  text-decoration: none;
+  color: #717171;
+  font-size: 0.9rem;
+}
+.title-img img {
+  width: 48px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.settings-row {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-setting-col {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.left-setting-col img {
+  width: 28px;
+  margin-right: 10px;
+}
+.left-setting-col p {
+  color: #fff;
+  font-size: 0.9rem;
+}
+.right-setting-col img {
+  width: 8px;
+  cursor: pointer;
+}
