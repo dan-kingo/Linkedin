@@ -679,3 +679,93 @@ hr {
   width: 8px;
   cursor: pointer;
 }
+
+/* prfofile page styles */
+
+.profile-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.3rem 5%;
+}
+
+.left-section-container {
+  flex-basis: 73%;
+  align-self: flex-start;
+}
+.right-section-container {
+  flex-basis: 25%;
+  align-self: flex-start;
+}
+.section-container-first .left-profile {
+  bottom: -30px;
+  width: 80px;
+}
+.section-container-first .heading {
+  margin-top: 1.6rem;
+}
+
+.section-container-first .heading p {
+  line-height: 2;
+  width: 47%;
+}
+
+.section-container-first .heading p a {
+  text-decoration: none;
+  color: #4545bf;
+  font-weight: 600;
+}
+.my-span {
+  font-weight: 600;
+}
+.section-container-second {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.mutual {
+  padding: 0 1rem 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.mutual img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.mutual p {
+  font-size: 0.9rem;
+  color: #717171;
+}
+
+.connect-buttons {
+  display: flex;
+  padding: 0.3rem 1rem 0;
+  align-items: center;
+}
+.connect-buttons button img {
+  width: 22px;
+  margin-right: 3px;
+}
+.connect-buttons button {
+  margin-bottom: 1rem;
+  padding: 0.2rem 1rem;
+  font-size: 0.9rem;
+  display: flex;
+  cursor: pointer;
+  border-radius: 4px;
+  align-items: center;
+  margin-right: 10px;
+}
+.connect-buttons button:first-child {
+  color: #fff;
+  background-color: #4545bf;
+  border: 1px solid #4545bf;
+}
+.connect-buttons button:last-child {
+  color: #504f4f;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+}
