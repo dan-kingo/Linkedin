@@ -29,6 +29,7 @@ body {
   margin-bottom: 1rem;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 .logo-container {
   display: flex;
@@ -123,7 +124,7 @@ body {
 }
 .left-container-inner {
   background-color: #fff;
-
+  margin-bottom: 1rem;
   border-radius: 6px;
 }
 .cover-container {
@@ -206,6 +207,45 @@ hr {
 .premium img {
   margin-right: 8px;
   width: 18px;
+}
+
+.left-container-second {
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+
+  flex-direction: column;
+}
+.left-container-second h1 {
+  color: #717171;
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.left-container-second a img {
+  width: 20px;
+  margin-right: 10px;
+}
+.left-container-second a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #504f4f;
+}
+.groups,
+.hashtag {
+  margin-top: 1.5rem;
+}
+.discover {
+  margin-top: 1rem;
+  border-top: 1px solid #717171;
+}
+.discover a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0 0;
 }
 .right-container {
   flex-basis: 25%;
