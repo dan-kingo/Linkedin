@@ -769,3 +769,85 @@ hr {
   background-color: #ccc;
   border: 1px solid #ccc;
 }
+
+.section-container-second {
+  padding: 1rem;
+  position: relative;
+}
+
+.section-container-second h1,
+.section-container-third h1 {
+  color: #1e1e1e;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.section-container-second p {
+  text-align: justify;
+  font-size: 0.9rem;
+  color: #717171;
+  line-height: 1.5;
+  padding-bottom: 1rem;
+}
+
+.section-container-second a {
+  text-decoration: none;
+  color: #4545bf;
+  font-size: 0.8rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.section-container-third {
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.section-container-third h2 {
+  font-size: 1rem;
+  color: #1e1e1e;
+  margin-bottom: 0.5rem;
+}
+
+.experience {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+.experience img {
+  width: 40px;
+  margin-right: 1rem;
+}
+
+.experience-right p {
+  font-size: 0.9rem;
+  color: #504f4f;
+  padding: 0.1rem;
+}
+
+.last-p {
+  list-style: none;
+  color: #504f4f;
+  text-align: justify;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.section-container-third p:last-child {
+  text-align: center;
+  color: #504f4f;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-container-third p img {
+  margin-left: 10px;
+  width: 20px;
+}
