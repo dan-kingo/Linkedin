@@ -823,6 +823,9 @@ hr {
   margin-right: 1rem;
 }
 
+.experience-right {
+  flex-basis: 90%;
+}
 .experience-right p {
   font-size: 0.9rem;
   color: #504f4f;
@@ -835,6 +838,7 @@ hr {
   text-align: justify;
   font-size: 0.9rem;
   margin: 1rem 0;
+  width: 100%;
 }
 
 .section-container-third p:last-child {
