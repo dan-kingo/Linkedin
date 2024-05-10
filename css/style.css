@@ -122,6 +122,7 @@ body {
   flex-basis: 25%;
   position: sticky;
   top: 70px;
+  align-self: flex-start;
 }
 .left-container-inner {
   background-color: #fff;
@@ -251,7 +252,8 @@ hr {
 
 /* right container section */
 
-.right-container-first {
+.right-container-first,
+.right-container-second {
   padding: 1rem;
   background-color: #fff;
   border-radius: 6px;
@@ -272,7 +274,8 @@ hr {
   align-items: center;
 }
 .trend-icon img {
-  width: 24px;
+  width: 18px;
+  cursor: pointer;
 }
 .content {
   margin-top: 0.5rem;
@@ -297,6 +300,87 @@ hr {
   color: #4545bf;
 
   font-weight: 600;
+}
+
+.right-container-second {
+  margin-top: 1rem;
+  position: relative;
+}
+.right-container .ads {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  color: #504f4f;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.ad-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ad-container p {
+  color: #504f4f;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+.images img {
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.ad-container button {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid #4545bf;
+  padding: 0.5rem 2rem;
+  color: #4545bf;
+  background-color: transparent;
+  border-radius: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.right-container-third {
+  padding: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-col,
+.second-col {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.first-col a,
+.second-col a {
+  text-decoration: none;
+  color: #504f4f;
+  font-size: 0.9rem;
+}
+
+.copy-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.copy-right img {
+  width: 18px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copy-right p {
+  color: #504f4f;
+  font-size: 0.9rem;
 }
 .main-content {
   flex-basis: 47%;
