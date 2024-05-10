@@ -881,3 +881,22 @@ hr {
   color: #504f4f;
   margin: 0.5rem;
 }
+
+.right-section-second {
+  margin-top: 0;
+}
+
+.experience .connect-img {
+  width: 30px;
+  margin-right: 4px;
+  border-radius: 50%;
+}
+.experience button {
+  padding: 0.2rem 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #717171;
+  color: #717171;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 2rem;
+}
